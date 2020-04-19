@@ -1,8 +1,7 @@
 <?php
 try {
 	require('controller/controller.php');
-		connection();
-		
+		pagePrincipale();
 }
 
 catch(Exception $e) {

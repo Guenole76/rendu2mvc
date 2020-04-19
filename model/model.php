@@ -9,8 +9,6 @@ function getCompte()
 	//On passe la partie quiz qui ne nous sert pas dans le json
 	$FichierCompte = $FichierCompte['PseudoApp'];
 
-	
-	$quizData = private_formatQuizData($quizData);
 
 	return $FichierCompte;
 }

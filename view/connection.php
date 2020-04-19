@@ -2,14 +2,9 @@
 session_start();
 ?>
 
-
 <!-- HEAD -->
 <?php require __DIR__ . "/../header.php"; ?>
  
-<!-- Traitement formulaire -->
-<?php require __DIR__ . "/../traitement_formulaire.php"; ?>
-
-
 
 
 <div class="login">
@@ -26,10 +21,10 @@ session_start();
 
       <div class="valide">
         <p class="inscription"> <input type="submit" name="commit" value="Insciption"></p>
-        <a href="inscription.php"></a>
+        <a href="index2.php"></a>
       
       <p class="submit"><input type="submit" name="commit" value="Validé"></p>
-      <a href="PagePrincipale.php"></a>
+      <a href="index3.php"></a>
       </div>
     </form>
   </div>

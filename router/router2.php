@@ -1,8 +1,7 @@
 <?php
 try {
 	require('controller/controller.php');
-		connection();
-		
+		inscription();
 }
 
 catch(Exception $e) {

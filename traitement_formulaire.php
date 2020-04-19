@@ -26,7 +26,7 @@ if (isset($_POST['commit'])) {
                                 if ($_POST['password'] == $_POST['password_confirm']) {
                                     $_SESSION['pseudo'] = $_POST['pseudo'];
                                     echo "<script>alert('ça marche')</script>";
-                                    header('Location: view/connection.php');
+                                    header('Location: view/index2.php');
                                 } else {
                                     $sErrorPasswordComfirm = 'Les mots de passe ne correspondent pas';
                                 }

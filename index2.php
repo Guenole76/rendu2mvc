@@ -1,7 +1,7 @@
 <?php
 try {
 
-		require('router/router.php');
+		require('router/router2.php');
 }
 
 catch(Exception $e) {

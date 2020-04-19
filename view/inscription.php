@@ -1,11 +1,14 @@
 <?php 
 session_start();
 ?>
+<!-- HEAD -->
+<?php require __DIR__ . "/../header2.php"; ?>
 
- 
+ <?php require __DIR__ . "/../traitement_formulaire.php"; ?>
  
 <div class="login">
 <link rel="stylesheet" href="css/style.css">
+
     <form method="post" action="">
 	
         <div class="titre">Adresse Mail</div>
@@ -29,5 +32,5 @@ session_start();
     </form>
 </div>
 
-    
+<?php require __DIR__ . "/../footer.php"; ?>    
 
