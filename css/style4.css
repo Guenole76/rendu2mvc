@@ -1,0 +1,110 @@
+body {
+
+    background-image: url("fondlol3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .top {
+	border:none;
+	padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 40px;
+	background:#ffff;
+	font:bold 40px Arial;
+    background-color:#FFFFFF;
+    color:#3A5B5B;
+    width: 300px;
+    height:700px;
+    grid-column:  1 / 5;
+    grid-row: 1 / 1;
+}
+
+.jungle {
+	border:none;
+	padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 40px;
+	background:#ffff;
+	font:bold 40px Arial;
+    background-color:#FFFFFF;
+    color:#5B3A45;
+    width: 300px;
+    height:700px;
+    grid-column:  2 / 5;
+    grid-row: 1 / 1;
+}
+
+.mid {
+	border:none;
+	padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 40px;
+	background:#ffff;
+	font:bold 40px Arial;
+    background-color:#FFFFFF;
+    color:#553A5B;
+    width: 300px;
+    height:700px;
+    grid-column:  3 / 5;
+    grid-row: 1 / 1;
+}
+
+.adc {
+	border:none;
+	padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 40px;
+	background:#ffff;
+	font:bold 40px Arial;
+    background-color:#FFFFFF;
+    color:#3A5B5B;
+    width: 300px;
+    height:700px;
+    grid-column:  4 / 5;
+    grid-row: 1 / 1;
+}
+
+
+.supp {
+	border:none;
+	padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 40px;
+	background:#ffff;
+	font:bold 40px Arial;
+    background-color:#FFFFFF;
+    color:#3A5B5B;
+    width: 300px;
+    height:700px;
+    grid-column:  5 / 5;
+    grid-row: 1 / 1;
+}
+
+.touslesroles{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+    grid-auto-rows: minmax(60px, auto);
+    margin-left: 15px;
+    margin-top: 200px;
+}
+
+
+.role{
+
+    z-index: 1;
+    margin-top: -675px;
+    margin-left: 100px;
+}

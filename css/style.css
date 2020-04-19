@@ -2,7 +2,7 @@
 
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+  input[type=text], input[type=password] {
   width:100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -33,7 +33,7 @@ button {
   opacity: 0.9;
 }
 
-.button:hover {
+button:hover {
   opacity:1;
 }
 
@@ -55,7 +55,7 @@ button {
  body {
   font: 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
   color: #404040;
- 
+  background-image: url("fondlol.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -104,11 +104,11 @@ button {
   box-shadow: 0 1px whitesmoke;
 }
 
-.login div {
+.login p {
   margin: 20px 0 0;
 }
 
-.login div:first-child {
+.login p:first-child {
   margin-top: 0;
 }
 
@@ -116,25 +116,27 @@ button {
   width: 600px;
 }
 
-.login div.remember_me {
+.login p.remember_me {
   float: left;
   line-height: 31px;
 }
 
-.login div.remember_me label {
+.login p.remember_me label {
   font-size: 12px;
   color: #777;
   cursor: pointer;
 }
 
-.login div.remember_me input {
+.login p.remember_me input {
   position: relative;
   bottom: 1px;
   margin-right: 4px;
   vertical-align: middle;
 }
 
-
+.login p.submit {
+  
+}
 
 .login-help {
   margin: 20px 0;
@@ -188,7 +190,7 @@ input[type=text]:focus, input[type=password]:focus {
   outline-color: #B7B7B7;
   outline-offset: 0;
 }
-/*
+
 input[type=submit] {
  margin-top: -20px;
   padding: 0 50px;
@@ -212,7 +214,6 @@ input[type=submit] {
   -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
 }
-*/
 
 input[type=submit]:active {
   background: #cde5ef;
@@ -262,7 +263,7 @@ input[type=submit]:active {
   color: blue;
   font-size: 50px;
   position: absolute;
-  top:40%;
+  top: 40%;
   left: 61%;
   z-index: 1;
 
@@ -287,11 +288,5 @@ input[type=submit]:active {
   top: 80%;
   left: 61%;
   z-index: 1;
-
-}
-
-.submit{
-    padding:1rem;
-    color: white;
 
 }
