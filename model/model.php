@@ -1,14 +1,21 @@
 <?php
 
-function getCompte()
-{
-	//On récupère le contenu du json
-	$fileData = file_get_contents('public/FichierCompte.json');
-	//On décode le json
-	$FichierCompte = json_decode($fileData,true);
-	//On passe la partie quiz qui ne nous sert pas dans le json
-	$FichierCompte = $FichierCompte['PseudoApp'];
+	$hostname = "localhost";
+	$dbport = 3306;
+	$user     = "root";
+	$password = "";
+	$nom_base_donnees = "league_of_friend";
 
 
-	return $FichierCompte;
-}
+	
+	try
+	{
+		$connexion = new PDO('mysql:host='.$hostname.';port='.$dbport.';dbname='.$nom_base_donnees, $user, $password,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+		$connexion->SetAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+	}
+	catch(Exception $e)
+	{
+		echo 'Erreur : '.$e->getMessage().'<br />';
+		echo 'N° : '.$e->getCode();
+		exit();
+	}
